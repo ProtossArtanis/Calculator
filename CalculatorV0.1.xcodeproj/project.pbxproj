@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8268E55C1CA3972200DF66D1 /* calcula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268E55B1CA3972200DF66D1 /* calcula.swift */; };
 		8280974F1CA0150200033994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8280974E1CA0150200033994 /* AppDelegate.swift */; };
 		828097511CA0150200033994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828097501CA0150200033994 /* ViewController.swift */; };
 		828097541CA0150200033994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828097521CA0150200033994 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8268E55B1CA3972200DF66D1 /* calcula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calcula.swift; sourceTree = "<group>"; };
 		8280974B1CA0150200033994 /* CalculatorV0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorV0.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8280974E1CA0150200033994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		828097501CA0150200033994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				8280975A1CA0150200033994 /* LaunchScreen.storyboard */,
 				8280975D1CA0150200033994 /* Info.plist */,
 				828097551CA0150200033994 /* CalculatorV0_1.xcdatamodeld */,
+				8268E55B1CA3972200DF66D1 /* calcula.swift */,
 			);
 			path = CalculatorV0.1;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828097511CA0150200033994 /* ViewController.swift in Sources */,
+				8268E55C1CA3972200DF66D1 /* calcula.swift in Sources */,
 				8280974F1CA0150200033994 /* AppDelegate.swift in Sources */,
 				828097571CA0150200033994 /* CalculatorV0_1.xcdatamodeld in Sources */,
 			);
@@ -488,6 +492,7 @@
 				828097781CA0150200033994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		828097791CA0150200033994 /* Build configuration list for PBXNativeTarget "CalculatorV0.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				8280977B1CA0150200033994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8280977C1CA0150200033994 /* Build configuration list for PBXNativeTarget "CalculatorV0.1UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				8280977E1CA0150200033994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

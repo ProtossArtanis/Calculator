@@ -9,5 +9,39 @@
 import Foundation
 
 struct calcula {
-    private var NowCalcula:
+    private var NowArithmetic: arithmetic = .unchoose
+    
+    mutating func setNowarithmetic( provisional:arithmetic ){
+        NowArithmetic = provisional
+    }
+    
+    func getNowarithmetic() -> arithmetic{
+        return NowArithmetic
+    }
+    
+    enum arithmetic {
+        case add
+        case subtraction
+        case multiplication
+        case division
+        case unchoose
+    }
+    
+    func getResult(firstin firstin:Double, secondin:Double) -> String {
+        var back = ""
+        switch NowArithmetic {
+        case .add:
+            back = "\(firstin + secondin)"
+        case .subtraction:
+            back = "\(firstin - secondin)"
+        case .multiplication:
+            back = "\(firstin * secondin)"
+        case .division where secondin != 0:
+            back = "\(firstin / secondin)"
+        case .unchoose:
+            back = ""
+        default:
+            back = ""
+        }
+    }
 }

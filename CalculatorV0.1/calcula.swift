@@ -39,9 +39,10 @@ struct calcula {
         case .division where secondin != 0:
             back = "\(firstin / secondin)"
         case .unchoose:
-            back = ""
+            back = "错误：未选择算法"
         default:
-            back = ""
+            back = "0 不能做被除数！"
         }
+        return back
     }
 }

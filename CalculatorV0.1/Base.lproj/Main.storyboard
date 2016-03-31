@@ -57,7 +57,7 @@
                                 <rect key="frame" x="0.0" y="72" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.46446430595275723" green="0.48394939732483544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.46757093942116001" blue="0.2070011607697041" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="Button_subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fhB-K7-lWP"/>
@@ -178,6 +178,7 @@
                                 <state key="normal" title="c"/>
                                 <connections>
                                     <action selector="Button_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4az-SZ-1Jp"/>
+                                    <action selector="Button_eliminate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTi-hy-Rnl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KHj-9D-t7t">
@@ -201,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="263"/>
+            <point key="canvasLocation" x="-72" y="246"/>
         </scene>
     </scenes>
 </document>

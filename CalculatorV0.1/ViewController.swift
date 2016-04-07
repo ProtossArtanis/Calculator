@@ -20,14 +20,43 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    var  calculator = calcula()
+    var calculator = calcula() //计算
+    
+    var displaycache = "" //显示缓存
+    
+    var cache = 0.0 //缓存
+    
+    var cache2:Double?
     
     func loadResult(number:String){
-        
+        displaycache += number
+        OutPutResult.text = displaycache
     }
-    
+    /*
+    求值
+    */
     func getResult(){
+        var Result = ""
         
+        if !displaycache.isEmpty {
+            let temporary = displaycache as NSString //临时
+            cache = temporary.doubleValue
+            displaycache = "" //显示缓存清空
+        }
+        
+        let temporary = cache
+        
+        if let previousNumber = cache2 {
+            
+            Result = calculator.getResult(firstin: previousNumber, secondin: temporary)
+            OutPutResult.text = Result
+            let tem = Result as NSString
+            cache2 = tem.doubleValue
+            
+        }else{
+            cache2 = cache
+            cache = 0.0
+        }
     }
     
     @IBAction func Button_1(sender: UIButton) {
@@ -83,6 +112,8 @@ class ViewController: UIViewController {
         getResult()
     }
     @IBAction func Button_eliminate(sender: UIButton) {
+        displaycache = ""
+        OutPutResult.text = "当前出入已撤销！"
     }
     @IBOutlet weak var OutPutResult: UITextField!
 

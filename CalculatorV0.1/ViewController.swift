@@ -28,7 +28,16 @@ class ViewController: UIViewController {
     
     var cache2:Double?
     
+    var pointcount = 0
+    
     func loadResult(number:String){
+        if number == "."{
+            pointcount++
+        }
+        if number == "." && pointcount > 1{
+            return
+        }
+        
         displaycache += number
         OutPutResult.text = displaycache
     }
@@ -37,6 +46,8 @@ class ViewController: UIViewController {
     */
     func getResult(){
         var Result = ""
+        
+        pointcount = 0
         
         if !displaycache.isEmpty {
             let temporary = displaycache as NSString //临时
@@ -112,8 +123,12 @@ class ViewController: UIViewController {
         getResult()
     }
     @IBAction func Button_eliminate(sender: UIButton) {
+        pointcount = 0
         displaycache = ""
-        OutPutResult.text = "当前出入已撤销！"
+        cache = 0.0
+        cache2 = nil
+        calculator.setNowarithmetic(.unchoose)
+        OutPutResult.text = "0"
     }
     @IBOutlet weak var OutPutResult: UITextField!
 

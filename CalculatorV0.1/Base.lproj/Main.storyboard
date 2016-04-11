@@ -17,7 +17,7 @@
                                 <rect key="frame" x="80" y="72" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.54369932438767143" blue="0.53455368734171149" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="Button_add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h7-IR-h4c"/>
@@ -27,7 +27,7 @@
                                 <rect key="frame" x="0.0" y="152" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.5677829912737391" blue="0.92567707823973333" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="7"/>
                                 <connections>
                                     <action selector="Button_7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AM1-xT-Rhy"/>
@@ -37,7 +37,7 @@
                                 <rect key="frame" x="0.0" y="232" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.72074154583162264" blue="0.61902720625744068" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="Button_4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ilJ-xz-t0G"/>
@@ -47,7 +47,7 @@
                                 <rect key="frame" x="0.0" y="312" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.34043226375242375" blue="0.45652395411409219" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="Button_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BPw-3a-niX"/>
@@ -57,7 +57,7 @@
                                 <rect key="frame" x="0.0" y="72" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.46757093942116001" blue="0.2070011607697041" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="Button_subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fhB-K7-lWP"/>
@@ -67,7 +67,7 @@
                                 <rect key="frame" x="80" y="152" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.079017566282576168" green="0.80318803486278145" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="Button_8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qrk-lE-nyv"/>
@@ -77,7 +77,7 @@
                                 <rect key="frame" x="80" y="232" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.27126968939694596" blue="0.28334328853768542" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="Button_5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oda-y6-7yV"/>
@@ -87,7 +87,7 @@
                                 <rect key="frame" x="160" y="312" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.71629107233342393" green="0.33493942426181544" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="Button_3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4mi-il-YEo"/>
@@ -97,7 +97,7 @@
                                 <rect key="frame" x="160" y="232" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.26468632380423118" green="0.26199109962099676" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="Button_6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7EE-0d-K9b"/>
@@ -107,37 +107,27 @@
                                 <rect key="frame" x="160" y="152" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.69219617901804764" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="Button_9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iH5-8D-I7K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="haX-Ty-S7q">
-                                <rect key="frame" x="160" y="72" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.28679559043122549" green="0.62420312066135675" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="*"/>
-                                <connections>
-                                    <action selector="Button_multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKn-zw-zAj"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iec-oF-hbL">
-                                <rect key="frame" x="240" y="232" width="80" height="160"/>
+                                <rect key="frame" x="240" y="312" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.11242632745804659" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="."/>
                                 <connections>
                                     <action selector="Button_point:" destination="BYZ-38-t0r" eventType="touchUpInside" id="unv-bB-t8U"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rxu-RM-4yY">
-                                <rect key="frame" x="240" y="152" width="80" height="80"/>
+                                <rect key="frame" x="240" y="152" width="80" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.61242632745804659" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="Button_0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZy-Tj-f74"/>
@@ -147,7 +137,7 @@
                                 <rect key="frame" x="240" y="72" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.55584721382698643" blue="0.6481441932740708" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="/"/>
                                 <connections>
                                     <action selector="Button_division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kAn-KW-8Su"/>
@@ -164,7 +154,7 @@
                                 <rect key="frame" x="80" y="312" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.67779476694685803" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="Button_2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lap-MA-NVb"/>
@@ -174,8 +164,8 @@
                                 <rect key="frame" x="160" y="392" width="160" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.34043226380000002" blue="0.45652395410000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="c"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="AC"/>
                                 <connections>
                                     <action selector="Button_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4az-SZ-1Jp"/>
                                     <action selector="Button_eliminate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTi-hy-Rnl"/>
@@ -185,10 +175,20 @@
                                 <rect key="frame" x="0.0" y="392" width="160" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.45220258305576244" blue="0.0767193022184538" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="Button_equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e6H-zY-lGq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="haX-Ty-S7q">
+                                <rect key="frame" x="160" y="73" width="80" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="Button_multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKn-zw-zAj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -202,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-72" y="246"/>
+            <point key="canvasLocation" x="-322" y="261"/>
         </scene>
     </scenes>
 </document>
